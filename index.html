@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#253c30">
+  <title>Aisha Publishing Command Centre</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the page</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><span class="brand-mark">A</span><div><strong>AISHA</strong><small>Publishing Command Centre</small></div></div>
+      <nav id="navigation" aria-label="Main navigation"></nav>
+      <div class="safety-note"><span>◆</span><div><strong>Your work stays here</strong><small>Nothing is published or sent without your approval.</small></div></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <button class="icon-button mobile-only" id="menuButton" aria-label="Open menu">☰</button>
+        <div><span class="eyebrow">AISHA · A DAUGHTER OF THE SAVANNAH</span><h1 id="pageTitle">Overview</h1></div>
+        <button class="button secondary" id="backupButton">↓ Back up my project</button>
+      </header>
+      <main id="main" tabindex="-1"></main>
+    </div>
+  </div>
+  <div class="modal-layer" id="modalLayer" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
